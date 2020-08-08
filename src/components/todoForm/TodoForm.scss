@@ -1,0 +1,29 @@
+.TodoForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  &__item {
+    margin-top: 2rem;
+    flex: 1;
+  }
+  &__add-btn {
+    margin-left: 10px;
+  }
+  &__error {
+
+  }
+}
+
+.error-block {
+  font-size: 18px;
+  padding: 10px;
+  flex-basis: 100%;
+  color: #fff;
+  background: #ef5350;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}

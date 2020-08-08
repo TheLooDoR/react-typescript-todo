@@ -1,0 +1,7 @@
+.todo-list {
+  position: relative;
+  &__empty-message {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
